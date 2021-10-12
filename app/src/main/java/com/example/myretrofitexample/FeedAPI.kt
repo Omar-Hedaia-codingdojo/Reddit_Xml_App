@@ -5,7 +5,7 @@ import com.example.myretrofitexample.model.Feed
 import retrofit2.Call
 
 interface FeedAPI {
-    @get:GET("earthporn/.rss")
+    @get:GET("cats/.rss")
     val feed: Call<Feed?>?
 
     companion object {
